@@ -1,4 +1,4 @@
-# Deep Learning for Hand Gesture Recognition on Skeletal Data
+# Deep Learning for Hand Gesture Recognition
 
 This repository holds a ```pytorch``` implementation of the deep learning model for hand gesture recognition introduced in the article [Deep Learning for Hand Gesture Recognition on Skeletal Data](https://ieeexplore.ieee.org/document/8373818) from G. Devineau, F. Moutarde, W. Xi and J. Yang.
 
