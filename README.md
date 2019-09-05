@@ -60,6 +60,8 @@ To that extent, they are all fed into a dense neural network (one hidden layer) 
 
 The full model (by-channel temporal feature extraction + final MLP) is differentiable and can be trained end-to-end.
 
+
+
 ### Training the model with your own gestures
 
 Recognizing hand gestures can be useful in many daily real-life situations: writing, drawing, typing, communicating with sign language, cooking, gardening, driving, playing music, playing sport, painting, acting, doing precise surgery, pointing, interacting with one’s environment in augmented reality or virtual reality, for drone control, lights control, sound control, home automation, medicine, nonverbal communication, … the list is almost limitless!
@@ -76,7 +78,7 @@ If you don't have any hand gesture available or if you want to reproduce the res
 
 ##### B. Data format
 
-The model expect gestures to be tensors of the following shape: ```(batch_size, duration, n_channels)```.
+The model expects gestures to be tensors of the following shape: ```(batch_size, duration, n_channels)```.
 
 For instance, if you want to recognize a batch of 32 gestures of length 100 on a hand skeletal constituted of 22 joints in 3D (x,y,z), i.e. 22x3=66 channels, the shape of the tensor should be : ```(32, 100, 66)```.
 
