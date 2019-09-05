@@ -26,7 +26,7 @@ Studies on human visual perception of biological motion ([Johansson 1973](https:
 
 Such skeletal (“pose”) representations are lightweight and very sparse compared to image and video representations.
 
-Some sensors directly provide streams of body skeletons or hand skeletons: e.g. Leap Motion, Kinect camera, RealSense camera, or motion capture suits and gloves. It is also possible to extract the pose information from videos using vision-based approaches like [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose), [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose), or [Google’s Media Pipe](https://github.com/google/mediapipe/, https://ai.googleblog.com/2019/08/on-device-real-time-hand-tracking-with.html) at a good frame rate.
+Some sensors directly provide streams of body skeletons or hand skeletons: e.g. Leap Motion, Kinect camera, RealSense camera, or motion capture suits and gloves. It is also possible to extract the pose information from videos using vision-based approaches like [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose), [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose), or [Google’s](https://github.com/google/mediapipe/) [Media Pipe](https://ai.googleblog.com/2019/08/on-device-real-time-hand-tracking-with.html) at a good frame rate.
 
 ![Hand pose](images/hand_with_fingers.png)
 
