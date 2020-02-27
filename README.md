@@ -1,13 +1,17 @@
 # Deep Learning for Hand Gesture Recognition
 
-This repository holds a ```pytorch``` implementation of the deep learning model for hand gesture recognition introduced in the article [Deep Learning for Hand Gesture Recognition on Skeletal Data](https://ieeexplore.ieee.org/document/8373818) from G. Devineau, F. Moutarde, W. Xi and J. Yang.
+This repository holds ```keras``` and ```pytorch``` implementations of the deep learning model for hand gesture recognition introduced in the article [Deep Learning for Hand Gesture Recognition on Skeletal Data](https://ieeexplore.ieee.org/document/8373818) from G. Devineau, F. Moutarde, W. Xi and J. Yang.
 
 ## Getting started
 
-A complete notebook is provided here: 
-[Notebook for Deep Learning for Hand Gesture Recognition](deep_learning_hand_gesture_model_quickstart.ipynb)
+Notebooks with the model definition in either ```pytorch``` or ```keras``` are provided on Google Colab. The notebooks include gesture data loading, model creation, and model training. For offline use in jupyter, you can download the notebooks from colab.
 
-The notebook includes gesture data loading, model creation, and model training. For convenience, the same notebook is also available as an interactive Google Colab: https://colab.research.google.com/drive/1TcfF3sNBOAXkQC5XU7tHMBfm0FYIC0UR
+
+| Description       | Google Colab                                                              |
+|-------------------|---------------------------------------------------------------------------|
+| 1. Data Loading   | https://colab.research.google.com/drive/1ggYG1XRpJ50gVgJqT_uoI257bspNogHj |
+| 2. Model: Keras   | https://colab.research.google.com/drive/1DA3qlnT-HlN5aTvWbWT-ARDfaQIEZGfH |
+| 2. Model: PyTorch | https://colab.research.google.com/drive/1TcfF3sNBOAXkQC5XU7tHMBfm0FYIC0UR |
 
 ![Overview of the gesture recognition approach with a CNN deep leaning model](images/pipeline.png)
 
